@@ -5,6 +5,8 @@ from PIL import Image
 import numpy as np
 import altair as alt
 import pandas as pd
+import os
+os.environ['CUDA_VISIBLE_DEVICES'] = ''
 
 from model_def import LeNet4, IMG_SIZE
 from inference import predict, CLASS_NAMES
@@ -91,4 +93,5 @@ else:
 st.markdown("---")
 st.markdown("Notes:")
 st.markdown("- The model architecture and normalization match the training notebook.")
+
 st.markdown("- Predictions are based on resized 128×128 inputs with ImageNet normalization.")
