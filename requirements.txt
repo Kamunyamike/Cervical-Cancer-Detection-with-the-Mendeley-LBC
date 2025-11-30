@@ -1,9 +1,9 @@
 --extra-index-url https://download.pytorch.org/whl/cpu
 streamlit==1.39.0
 rich==13.7.1
-torch==2.5.0
-torchvision==0.20.0
-numpy>=1.24.0
+torch==2.6.0
+torchvision==0.21.0
+numpy>=1.26.0
 opencv-python-headless==4.10.0.84
 albumentations==1.4.8
 albucore==0.0.14
